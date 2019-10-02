@@ -14,7 +14,7 @@ During training, the forward propagate of the neural networks will be the green 
 
 During testing, the forward propagate is labeled by the yellow array. We do not use $(\mu_\text{T},\ \Sigma_{\text{T}})$ to sample $z_\text{T}$ due to noise ($\Sigma_{\text{T}}$ is to large relative to $\mu_\text{T}$).
 
-![alt text](https://github.com/ZXP-S-works/Learning_VAE/blob/master/Code/VAE_reconstruct_ZXP/VAE_CartPole.3.0/VAETP_structure.png)
+![alt text](https://github.com/ZXP-S-works/VAE-for-Temporal-Process/blob/master/VAE_CartPole.3.0/VAETP_structure.png)
 
 ## Results
 The parameters are similar to the previous section. This VAETP use 5 frames to predict the next 5 frames. After 50 epochs (146 min) training, the VAETP achieved the error of transition $z_\text{T}$ for all frames 0.04 and for the first frame 0.006. Note that this error in the previous section for the first frame is 0.03. The reconstructed images are shown in the figure.
