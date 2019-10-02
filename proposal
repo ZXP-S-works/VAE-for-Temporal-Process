@@ -1,0 +1,71 @@
+----------------------------------------------14th May-----------------------------------------------
+1. Extract screemshot for cartpole env, form train-valid dataset CartPole_data.
+2. Modify mnist-VAE code into VAE_CartPole.1.0 and training on CartPole_data.
+Finished. 15th May
+----------------------------------------------15th May-----------------------------------------------
+5. Compare 2-, 5-, and 10- elements reconstruction; visualize 2- elements reconstruction in a grid.
+Partial finished. 15th May
+----------------------------------------------16th May-----------------------------------------------
+5. Compare 2-, 5-, and 10- elements reconstruction; visualize 2- elements reconstruction in a grid.
+6. Writting the Summary of VAE_CartPole.1.1
+----------------------------------------Summary Requirements-----------------------------------------
+- Loss function (two terms), distribution function
+- Example images
+- Evaluate dim, 2/10/100
+7. Github push VAE_Reconstruction folder
+Partial finished. 16th May
+Finished. 20 May
+----------------------------------------------17th May-----------------------------------------------
+3. Impliment CNN by pytorch.
+4. Upgrade the fully-connected layer in VAE_CartPole.1.0 into convernutional layer as VAE_CartPole.2.0
+8. Upgrade GPU from GTX660 to GTX970
+Finished. 21 May
+
+
+-----------------------------------------------22th May-----------------------------------------------
+CartPole.2.0:
+1. Compare different weightings between the KL term and the reconstruction term, add the comparison to
+   the report.
+2. Modify the code to enabel the two latent variable capture both pole angle and cart position, modify
+   the corresponding part in the code.
+Finished.
+---------------------------------------------23-30th May----------------------------------------------
+1. Read DQN paper
+2. Implement DQN
+Finished. 30 May
+-----------------------------------------------31st May-----------------------------------------------
+1. Generate training set by randomly start in the state space -> VAE_CartPole.2.1
+2. Loss plot for 2, 5, 10 dimentions latent variables
+3. Try to reconstruct train samples
+4. Explore more dimensions in latent variables
+5. Add train and valid set
+6. For 2 dim case, plot the latent variable distribution of the training set
+Finished. 3 June
+-----------------------------------------------5st Jun------------------------------------------------
+1. Prepare the following:
+    - Plot train-test loss for 2 dim case
+    - Plot latent variable distribution, plot reconstruction grid
+    - Train-test loss plot and table for dim = 2, 4, 8, 16, 32
+    - Reconstruction comparison for the best dim
+2. Write it down into report
+Done.
+-----------------------------------------------17th Jun-----------------------------------------------
+1. Read vriational_encoder_thoughts, understand the general idea
+2. Implement Variational model of temporal process
+3. Read Deep Variational information bottleneck, understand the general idea
+4. Read thoughly Tutorial VAE
+
+-----------------------------------------------20th Jun-----------------------------------------------
+1. Understand Prioritized Replay code
+2. Read thoughly Double DQN
+
+-----------------------------------------------25th Jun-----------------------------------------------
+1. Read Dueling
+2. Understand Dueling code
+
+-----------------------------------------------30th Jun-----------------------------------------------
+1. 25 Jun-5 Jul: DPG, DDPG, A3C; paper + code
+
+-----------------------------------------------2nd July-----------------------------------------------
+1. Deduct VTP formula
+2. Implement
